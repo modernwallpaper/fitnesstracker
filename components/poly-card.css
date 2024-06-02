@@ -1,0 +1,3 @@
+.poly-card {
+  clip-path: polygon(1rem 0, 100% 0, 100% calc(100% - 2rem), calc(100% - 2rem) 100%, 0 100%, 0 1rem);
+}
