@@ -14,14 +14,26 @@ export const Dashboard = () => {
       <div className="md:flex flex w-full items-center justify-center">
         <ScrollArea className="rounded-md border p-2 w-[370px] md:w-fit md:h-[130px]">
           <div className="flex space-x-5">
-            <PolyCard header="Pushups">
-              0/100
+            <PolyCard header="Monday">
+              0/10
             </PolyCard>
-            <PolyCard header="Bicep Curls">
-              0/60
+            <PolyCard header="Tuesday">
+              0/10
             </PolyCard>
-            <PolyCard header="Tricep Curls">
-              0/60
+            <PolyCard header="Wednesday">
+              0/10
+            </PolyCard>
+            <PolyCard header="Thursday">
+              0/10
+            </PolyCard>
+            <PolyCard header="Friday">
+              0/10
+            </PolyCard>
+            <PolyCard header="Saturday">
+              0/10
+            </PolyCard>
+            <PolyCard header="Sunday">
+              0/10
             </PolyCard>
           </div>
           <ScrollBar orientation="horizontal"/>
